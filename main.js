@@ -4,11 +4,11 @@ const searchResult = document.getElementById('search-result');
 const showMoreBtn = document.getElementById('show-more-btn');
 
 // Your existing JavaScript code with the missing closing bracket for the 'overlord' data block added
-const searchData = [
-  { id: 'Facebook', link: 'https://www.facebook.com/profile.php?id=100087999871043&mibextid=ZbWKwL', imgSrc: '20240109_142536.png' },
+const searchData = 
+  { id: 'Facebook', link: 'https://www.facebook.com/profile.php?id=100087999871043&mibextid=ZbWKwL', imgSrc: '   20240109_142536.jpg      ' },
   { id: 'Youtube', link: 'https://youtube.com/@LupusreginaBeta-il3kq?si=RpwWra1_7tQWQfqK', imgSrc: ' 20240109_221933.jpg' },
-  { id: 'Group' , link: 'https://www.facebook.com/groups/3789810921256148/?r', imgSrc: '20240109_222348.png'},
-  { id: 'overlord' , link: 'https://www.facebook.com/groups/3789810921256148/?r', imgSrc: '20240110_112347.png'}
+  { id: 'Group' , link: 'https://www.facebook.com/groups/3789810921256148/?r', imgSrc: '    20240109_222348.jpg       '},
+  { id: 'overlord' , link: 'https://www.facebook.com/groups/3789810921256148/?r', imgSrc: '   Screenshot_20240110-112310_Google.jpg      '}
   // Add more data as needed
 ];
 
